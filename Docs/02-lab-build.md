@@ -172,6 +172,7 @@ DNS records are important because domain clients use them to discover services s
 **Figure 4 — Active Directory Users and Computers displaying the company.com domain.**
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ca72aa9e-e62c-438f-a011-7d41e43a06f5" />
+
 **Figure 4.1 — DNS Manager displaying the company.com forward lookup zone hosted on DC01. The zone provides name resolution for the Active Directory domain.**
 
 ### 4. Domain User Account Configuration
@@ -200,7 +201,7 @@ A standard domain account is suitable for demonstrating domain authentication. A
 
 <img width="1920" height="1080" alt="create user 1" src="https://github.com/user-attachments/assets/b2ce66b5-972e-4a31-baca-0e5c0face6a8" />
 
-Figure 5 — Domain user account in Active Directory Users and Computers.
+**Figure 5 — Domain user account in Active Directory Users and Computers.**
 
 ### 5. Client Workstation Configuration
 
