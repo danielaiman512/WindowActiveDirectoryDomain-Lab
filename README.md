@@ -76,7 +76,7 @@ The main objectives of this project were:
 8. Configure CLIENT01 with a static IP address.
 9. Join CLIENT01 to the `company.com` domain.
 10. Verify that `helpdesk1` can log in to CLIENT01.
-11. Troubleshoot and document common domain connectivity issues.
+11. Troubleshoot common domain connectivity issues.
 
 ## Implementation Documentation
 
@@ -85,8 +85,7 @@ The project is documented in the following sections:
 - [Project Overview](Docs/01-project-overview.md)
 - [Lab Build](Docs/02-lab-build.md)
 - [Validation and Testing](Docs/03-validation-and-testing.md)
-- [Troubleshooting](Docs/04-troubleshooting.md)
-- [What I Learned](Docs/05-what-i-learned.md)
+- [What I Learned](Docs/04-what-i-learned.md)
 
 ## Evidence
 
