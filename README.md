@@ -13,9 +13,6 @@ I designed this environment to simulate common support responsibilities, includi
 - Troubleshooting DNS and domain connectivity.
 - Verifying domain authentication.
 - Managing organizational units and security groups.
-- Applying Group Policy to domain computers.
-- Performing delegated help desk administration.
-- Documenting technical changes and validation results.
 
 This repository contains the architecture, configuration procedures, PowerShell commands, troubleshooting steps, and evidence collected during the lab.
 
