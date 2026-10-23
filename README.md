@@ -83,7 +83,7 @@ The main objectives of this project were:
 The project is documented in the following sections:
 
 - [Project Overview](docs/01-project-overview.md)
-- [Full Lab Build Guide](docs/02-lab-build-guide.md)
+- [Lab Build](docs/02-lab-build.md)
 - [Validation and Testing](docs/03-validation-and-testing.md)
 - [Troubleshooting](docs/04-troubleshooting.md)
 - [What I Learned](docs/05-what-i-learned.md)
