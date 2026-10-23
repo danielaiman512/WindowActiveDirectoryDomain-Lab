@@ -77,17 +77,17 @@ Two virtual machines were created for the lab:
 
 Procedure Summary
 
-1.Create a virtual machine for Windows Server 2025.
+1. Create a virtual machine for Windows Server 2025.
 
-2.Allocate appropriate virtual CPU, memory, and storage resources.
+2. Allocate appropriate virtual CPU, memory, and storage resources.
 
-3.Attach the Windows Server installation media and complete the operating system installation.
+3. Attach the Windows Server installation media and complete the operating system installation.
 
-4.Repeat the process for Windows 11 Pro.
+4. Repeat the process for Windows 11 Pro.
 
-5.Configure both virtual network adapters to use the same internal network.
+5. Configure both virtual network adapters to use the same internal network.
 
-6.Confirm that both virtual machines can communicate through the lab network after IP configuration.
+6. Confirm that both virtual machines can communicate through the lab network after IP configuration.
 
 The virtual machine resources can be adjusted based on the host computer's available hardware. The important requirement is that both machines have sufficient resources to run their operating systems and remain connected to the same virtual network.
 
@@ -115,23 +115,23 @@ Procedure Summary
 
 The server configuration was completed in the following sequence:
 
-1.Rename the server to DC01.
+1. Rename the server to DC01.
 
-2.Configure its IPv4 address through the network adapter's IPv4 properties.
+2. Configure its IPv4 address through the network adapter's IPv4 properties.
 
-3.Verify that the IP address and subnet mask match the lab topology.
+3. Verify that the IP address and subnet mask match the lab topology.
 
-4.Open Server Manager and install the Active Directory Domain Services role.
+4. Open Server Manager and install the Active Directory Domain Services role.
 
-5.After installation, use the Server Manager notification to begin domain controller promotion.
+5. After installation, use the Server Manager notification to begin domain controller promotion.
 
-6.Select the option to add a new forest.
+6. Select the option to add a new forest.
 
-7.Enter company.com as the root domain name.
+7. Enter company.com as the root domain name.
 
-8.Configure the domain controller options, including the Directory Services Restore Mode password.
+8. Configure the domain controller options, including the Directory Services Restore Mode password.
 
-9.Complete the promotion process and restart the server.
+9. Complete the promotion process and restart the server.
 
 The domain controller promotion process creates the Active Directory domain and installs the required domain controller components.
 
@@ -151,19 +151,19 @@ Procedure Summary
 
 After the server was promoted:
 
-1.Open Server Manager and confirm that the AD DS role is installed.
+1. Open Server Manager and confirm that the AD DS role is installed.
 
-2.Open Active Directory Users and Computers.
+2. Open Active Directory Users and Computers.
 
-3.Confirm that the company.com domain is available.
+3. Confirm that the company.com domain is available.
 
-4.Review the domain's default containers and computer objects.
+4. Review the domain's default containers and computer objects.
 
-5.Open the DNS management console.
+5. Open the DNS management console.
 
-6.Confirm that the domain's forward lookup zone is present.
+6. Confirm that the domain's forward lookup zone is present.
 
-7.Review the DNS records registered for the domain controller.
+7. Review the DNS records registered for the domain controller.
 
 DNS records are important because domain clients use them to discover services such as domain controllers. A client configured with an incorrect DNS server may be unable to locate or join the domain even if basic network connectivity is available.
 
@@ -182,19 +182,19 @@ For this lab, the account helpdesk1 may be used if it has been created and confi
 
 Procedure Summary
 
-1.Open Active Directory Users and Computers on DC01.
+1. Open Active Directory Users and Computers on DC01.
 
-2.Select the appropriate domain container or Organizational Unit.
+2. Select the appropriate domain container or Organizational Unit.
 
-3.Create a new user account.
+3. Create a new user account.
 
-4.Enter the account name helpdesk1.
+4. Enter the account name helpdesk1.
 
-5.Configure a password that meets the domain password requirements.
+5. Configure a password that meets the domain password requirements.
 
-6.Complete the account creation process.
+6. Complete the account creation process.
 
-7.Confirm that the user account appears in Active Directory.
+7. Confirm that the user account appears in Active Directory.
 
 A standard domain account is suitable for demonstrating domain authentication. Administrative privileges should not be assigned unless they are required for a specific lab task.
 
@@ -212,25 +212,25 @@ The client was then joined to the `company.com` domain.
 
 Procedure Summary
 
-1.Rename the Windows 11 workstation to CLIENT01.
+1. Rename the Windows 11 workstation to CLIENT01.
 
-2.Configure its IPv4 address as 10.0.0.2.
+2. Configure its IPv4 address as 10.0.0.2.
 
-3.Configure the subnet mask as 255.255.255.0.
+3. Configure the subnet mask as 255.255.255.0.
 
-4.Set the preferred DNS server to 10.0.0.1.
+4. Set the preferred DNS server to 10.0.0.1.
 
-5.Verify that the client can reach the domain controller.
+5. Verify that the client can reach the domain controller.
 
-6.Open the Windows system settings and locate the domain or workgroup configuration.
+6. Open the Windows system settings and locate the domain or workgroup configuration.
 
-7.Select the option to join a domain.
+7. Select the option to join a domain.
 
-8.Enter company.com.
+8. Enter company.com.
 
-9.Provide credentials authorized to join computers to the domain.
+9. Provide credentials authorized to join computers to the domain.
 
-10.Complete the process and restart the workstation when prompted.
+10. Complete the process and restart the workstation when prompted.
 
 The workstation must be able to resolve the domain and communicate with the domain controller before the domain join can complete successfully.
 
