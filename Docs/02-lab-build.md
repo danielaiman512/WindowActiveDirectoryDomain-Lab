@@ -78,10 +78,12 @@ Two virtual machines were created for the lab:
 
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5cd24fe2-5636-49b5-885a-565271447347" />
-*Figure 1 — Virtual machine configuration and network assignment for Server.*
+
+**Figure 1 — Virtual machine configuration and network assignment for Server.**
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cd8e8f4a-8e2f-4629-862f-bf7002614a36" />
-*Figure 2 — Virtual machine configuration and network assignment for Client.*
+
+**Figure 2 — Virtual machine configuration and network assignment for Client.**
 
 ### 2. Domain Controller Configuration
 
@@ -96,7 +98,8 @@ The server was assigned the hostname `DC01` and configured with the following ad
 Active Directory Domain Services was installed, and the server was promoted to a domain controller for the domain `company.com`.
 
 <img width="1920" height="1080" alt="Promote to adds" src="https://github.com/user-attachments/assets/009594e1-242c-4430-8b23-49622629f7ce" />
-*Figure 3 — Domain controller configuration.*
+
+**Figure 3 — Domain controller configuration.**
 
 ### 3. Active Directory and DNS
 
@@ -107,10 +110,11 @@ DNS was configured as part of the domain controller environment. The client work
 This configuration allows the workstation to locate domain services and communicate with the domain controller using the domain name.
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2d27f17f-c9c2-460b-88fd-5564137486fa" />
-*Figure 4 — Active Directory Users and Computers displaying the company.com domain.*
+
+**Figure 4 — Active Directory Users and Computers displaying the company.com domain.**
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ca72aa9e-e62c-438f-a011-7d41e43a06f5" />
-*Figure 4.1 — DNS Manager displaying the company.com forward lookup zone hosted on DC01. The zone provides name resolution for the Active Directory domain.*
+**Figure 4.1 — DNS Manager displaying the company.com forward lookup zone hosted on DC01. The zone provides name resolution for the Active Directory domain.**
 
 ### 4. Client Workstation Configuration
 
@@ -121,7 +125,8 @@ The workstation was assigned the hostname `CLIENT01`.
 The client was then joined to the `company.com` domain.
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3f724e22-59c8-4cf1-83f9-8a31069774f1" />
-*Figure 5 — Windows 11 workstation joined to the domain.*
+
+**Figure 5 — Windows 11 workstation joined to the domain.**
 
 ## Final Environment
 
