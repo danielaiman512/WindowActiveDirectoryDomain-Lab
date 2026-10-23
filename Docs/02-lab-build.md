@@ -1,5 +1,5 @@
 
-# Lab 1 — Windows Server Active Directory Environment
+# Windows Server Active Directory Environment
 
 ## Project Overview
 
